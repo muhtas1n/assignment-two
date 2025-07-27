@@ -1,0 +1,180 @@
+.logo{
+    height: 82px;
+    width: 135px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.header{
+    background-color: rgba(245, 248, 255, 1);
+}
+.main{
+    background-color: rgba(245, 248, 255, 1);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+}
+
+.nav-btns{
+    display: flex;
+   margin-right: 20px;
+}
+.nav-btns div{
+ margin-right: 30px;
+}
+
+.nav-btns a{
+    text-decoration: none;
+    font-weight: 600;
+  
+    
+}
+
+.banner{
+    display: flex;
+    max-height: 461px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.banner-text{
+    max-width: 50%;
+    max-height: 299px;
+    margin-top: 106px ;
+}
+.banner-img{
+    max-width: 50%;
+    max-height: 355px;
+    margin-top: 106px;
+}
+
+
+.page2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  max-width: 1140px;
+}
+
+.page2text{
+text-align: center;
+}
+
+.ourplants{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.purchase{
+    max-width: 270px;
+    max-height: 485px;
+
+    text-align: center;
+}
+
+.cart-btn{
+    width: 270px;
+    height: 50px;
+    color: white;
+    background-color:rgba(233, 90, 8, 1) ;
+    border-radius: 2px;
+    border: none;
+     font-size: 16px;
+    font-weight: 400;
+    border-top: none;
+    cursor: pointer;
+}
+
+
+.purchase-sec{
+    display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+font-weight: 600;
+margin-top: 20px;
+}
+
+
+
+
+
+.grey{
+   color: rgba(137, 135, 161, 1);
+}
+
+.orange{
+   color: rgba(233, 90, 8, 1);
+}
+
+.black{
+    color:rgba(0, 0, 0, 1) ;
+    
+}
+
+
+
+/*smaller device*/
+
+@media screen and (max-width:576px) {
+     .logo{
+    width: 100px;
+    height: 65px;
+    }
+    .home{
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    .about-us{
+        display: none;
+    }
+
+
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 576px;
+    }
+    .banner-text{
+        width: 576px;
+      
+    }
+    .main{
+     display: flex;
+     flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+margin-top: 400px;
+margin-bottom: 0px;
+    }
+
+    .page2{
+max-width: 100%;
+margin-left: 307px;
+margin-top: 615px;
+    }
+ 
+.purchase-sec{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+}
+
