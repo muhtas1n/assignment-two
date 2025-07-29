@@ -280,6 +280,11 @@ border-radius: 14px;
     margin-right: 60px;
 }
 
+.footer2{
+    display: flex;
+    gap: 50px;
+}
+
 .footer{
     display: flex;
     justify-content: space-between;
