@@ -267,6 +267,26 @@ border-radius: 14px;
 
 }
 
+.footer2 ul{
+    display: flex;
+    gap: 100px;
+}
+
+.footer-links a{
+  margin-left: 25px;
+}
+
+.footer-links{
+    margin-right: 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
 .grey{
    color: rgba(137, 135, 161, 1);
 }
@@ -305,6 +325,7 @@ border-radius: 14px;
         justify-content: center;
         align-items: center;
         max-width: 576px;
+    margin-right: 1px;
     }
     .banner-text{
         width: 576px;
@@ -449,5 +470,27 @@ max-width: 70%;
     height: 50px;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+   gap: 50px;
 }
 
+
+
+.footer11 img{
+width: 350px;
+   
+}
+
+
+
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
+ 
